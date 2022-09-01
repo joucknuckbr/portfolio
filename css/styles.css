@@ -11327,7 +11327,7 @@ p.lead {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 #sideNav {
@@ -11447,7 +11447,8 @@ section.resume-section .resume-section-content {
 .progress-bar {
   width: 100%;
   height: 1.5vh;
-  margin-top: 10px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
   border: 1px solid #565656;
   border-radius: 5px;
   box-shadow: 0 0 7px rgb(245, 159, 0);
@@ -11458,7 +11459,11 @@ section.resume-section .resume-section-content {
   height: 100%;
   background-color: orange;
   border-radius: 5px;
-  animation: progress 1500ms ease-in 1;
+  animation: progress 1200ms ease-in 1;
+}
+
+.list-item {
+  font-size: 32px;
 }
 
 .html {
@@ -11466,11 +11471,11 @@ section.resume-section .resume-section-content {
 }
 
 .java {
-  width: 70%;
+  width: 75%;
 }
 
 .python {
-  width: 55%;
+  width: 50%;
 }
 
 .html {
@@ -11497,10 +11502,6 @@ section.resume-section .resume-section-content {
   width: 65%;
 }
 
-.java {
-  width: 75%;
-}
-
 .react {
   width: 50%;
 }
@@ -11514,11 +11515,7 @@ section.resume-section .resume-section-content {
 }
 
 .php {
-  width: 75%;
-}
-
-.python {
-  width: 75%;
+  width: 70%;
 }
 
 @keyframes progress {
